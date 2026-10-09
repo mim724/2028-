@@ -1,0 +1,23 @@
+title: "Content Site"
+description: "SEO optimized content repository"
+url: "https://mim724.github.io"
+baseurl: "/2028-"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+timezone: Asia/Shanghai
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
